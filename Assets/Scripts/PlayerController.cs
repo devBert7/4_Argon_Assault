@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
 	[Tooltip("In m/s^-1")][SerializeField] float speed = 10f;
 	[Tooltip("In m")][SerializeField] float xRange = 5f;
 	[Tooltip("In m")][SerializeField] float yRange = 3f;
@@ -17,15 +17,18 @@ public class Player : MonoBehaviour {
 
 	float xThrow;
 	float yThrow;
-	// Start is called before the first frame update
-	void Start() {
-
-	}
+	bool isControlEnabled = true;
 
 	// Update is called once per frame
 	void Update() {
-		ProcessPosition();
-		ProcessRotation();
+		if (isControlEnabled) {
+			ProcessPosition();
+			ProcessRotation();
+		}
+	}
+
+	public void DisableControls() {
+		isControlEnabled = false;
 	}
 
 	void ProcessPosition() {
