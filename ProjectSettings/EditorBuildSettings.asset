@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Levels/Splash Screen.unity
+    path: Assets/Scenes/Splash Screen.unity
     guid: 9f5151538a349b444ae5829563f9af2b
   - enabled: 1
-    path: Assets/Levels/ArgonAssault.unity
+    path: Assets/Scenes/ArgonAssault.unity
     guid: eb18853a508b6924a97660582867f180
   m_configObjects: {}
