@@ -18,7 +18,6 @@ public class Enemy : MonoBehaviour {
 	void AddBoxCollider() {
 		Collider boxCollider = gameObject.AddComponent<BoxCollider>();
 		boxCollider.isTrigger = false;
-	}
 
 	void OnParticleCollision(GameObject other) {
 		scoreBoard.ScoreHit(scorePerHit);
