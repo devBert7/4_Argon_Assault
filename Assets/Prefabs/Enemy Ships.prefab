@@ -49,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 146107486011600348, guid: 684a563834304504cba1e2927e6c564e, type: 3}
   parent: {fileID: 0}
+  scorePerHit: 12
 --- !u!114 &2721849275178088761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,6 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 146107486011600348, guid: 684a563834304504cba1e2927e6c564e, type: 3}
   parent: {fileID: 0}
+  scorePerHit: 12
 --- !u!114 &4376732784573481934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,6 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 146107486011600348, guid: 684a563834304504cba1e2927e6c564e, type: 3}
   parent: {fileID: 0}
+  scorePerHit: 12
 --- !u!114 &9076183051558005094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 146107486011600348, guid: 684a563834304504cba1e2927e6c564e, type: 3}
   parent: {fileID: 0}
+  scorePerHit: 12
 --- !u!114 &6547510423950502233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 146107486011600348, guid: 684a563834304504cba1e2927e6c564e, type: 3}
   parent: {fileID: 0}
+  scorePerHit: 12
 --- !u!1001 &7467406606181454699
 PrefabInstance:
   m_ObjectHideFlags: 0

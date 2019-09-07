@@ -128,6 +128,9 @@ MonoBehaviour:
   speed: 10
   xRange: 5
   yRange: 3
+  guns:
+  - {fileID: 6878913190627862048}
+  - {fileID: 1650484864197312915}
   posPitchFactor: -5
   posYawFactor: 6
   ctrlPitchFactor: -20
@@ -146,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelLoadDelay: 2
   deathFX: {fileID: 4241169353458905639}
+  hits: 3
 --- !u!1 &1650484864197312915
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +162,7 @@ GameObject:
   - component: {fileID: 1650484864197312912}
   - component: {fileID: 1650484864197312913}
   m_Layer: 0
-  m_Name: LBullets
+  m_Name: LGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9651,7 +9655,7 @@ GameObject:
   - component: {fileID: 6878913190627862051}
   - component: {fileID: 6878913190627862050}
   m_Layer: 0
-  m_Name: RBullets
+  m_Name: RGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
